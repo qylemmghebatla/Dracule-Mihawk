@@ -9,15 +9,15 @@ const fs = require('fs')
 const chalk = require('chalk')
 
 //===> SESUAIKAN DENGAN KEBUTUHAN MU
-global.ownerNumber = ['6285609233482','6285609233482'] //Ganti Jadi Nomer mu Biar Fitur Ownernya Bisa Dipake
-global.Rowner = '6285609233482' //Owner Utama
-global.ownerName = 'Nzrl Afndi' //Ganti Jadi Namamu
-global.packname = 'Subscribe YT' //Ganti Jadi Nama Botmu
-global.author = 'NZRLAFNDI' //Ganti Jadi Namamu
+global.ownerNumber = ['60177302593','60177302593'] //Ganti Jadi Nomer mu Biar Fitur Ownernya Bisa Dipake
+global.Rowner = '60177302593' //Owner Utama
+global.ownerName = 'QYLE' //Ganti Jadi Namamu
+global.packname = 'Follow My Instagram' //Ganti Jadi Nama Botmu
+global.author = 'QYLE' //Ganti Jadi Namamu
 global.prefa = ['','.','#','!'] //Ilangin Prefix Yang '' Kalau Gamau No Prefix
 global.sessionName = 'sesi' //Saran Gausah Diganti Lagi
-global.webme = 'https://linktr.ee/NzrlAfndi' //Ganti Jadi Bebas Web Sosmed Mu
-global.sosmed = 'https://www.instagram.com/_nzrlafndi' //Ganti Jadi Web Sosmed Mu
+global.webme = 'https://linktr.ee/qylensembotz' //Ganti Jadi Bebas Web Sosmed Mu
+global.sosmed = 'https://www.instagram.com/jstme._____' //Ganti Jadi Web Sosmed Mu
 
 //====> SARAN GAUSAH DIGANTI SIH DAH PAS SEMUA
 global.limitAwal = {
@@ -49,7 +49,7 @@ prem: '*Khusus User Premium*'
 }
 
 //===> KALAU GANTI FOTO GANTI JUGA NAMA NYA
-global.thumb = fs.readFileSync('./media/ichi.jpeg')
+global.thumb = fs.readFileSync('https://telegra.ph/file/669a774dd1da0fde5afa3.jpg')
 global.donasi = fs.readFileSync('./media/donasi.jpg')
 global.thumbnail = fs.readFileSync('./media/ichi.mp4')
 global.doc = fs.readFileSync('./media/ichi.pdf')
